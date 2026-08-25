@@ -1,9 +1,19 @@
+<p align="center">
+  <img src="assets/discovery-eye.svg" width="480" alt="Discovery System — evidence-first открытые инструменты"/>
+</p>
+
 # Market Evidence Diagnostic
 
 > **Open-source skill для проверки claims бизнес-модели через рынок, альтернативы и доказательства из разных каналов.**
 
 **Автор и maintainer:** [Виктор Зайцев](https://vospri9tielandingpage.vercel.app/) — продуктовый стратег и консультант, Санкт-Петербург.
 **Статус:** `v0.3.0-rc1` — рабочий research skill, который проходит структурную проверку; не готовый «автономный market-research agent».
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="Apache 2.0"/>
+  <img src="https://img.shields.io/badge/status-v0.3.0--rc1-yellow.svg" alt="v0.3.0-rc1"/>
+  <img src="https://img.shields.io/badge/evidence-first-8b5cf6.svg" alt="evidence-first"/>
+</p>
 
 ## Зачем это нужно
 
