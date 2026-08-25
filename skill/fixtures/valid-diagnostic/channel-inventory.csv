@@ -1,0 +1,5 @@
+channel_id,side,channel_type,access_mode,locator_or_query,purpose,observed_signal,claim_codes_supported,does_not_prove,status,source_date,notes
+CH-01,object_side,website_or_docs,public_web,https://example.com/exportkit,Object offer and delivery scope,Owner demo and price page,A;T;O,Object demand or outcome,checked,2026-08-17,Self-claim only
+CH-02,buyer_side,public_community,public_web,https://example.com/discussion-manual-rebuild,Job/workaround language,Practitioner describes manual rebuild,J;G;F,Frequency or WTP,checked,2026-08-17,Independent account
+CH-03,alternative_side,marketplace_or_docs,public_web,https://example.com/migration-service,Alternative price and scope,Service alternative publishes fixed unit,A;T;F,Usage or PMF,checked,2026-08-17,Competitor/service docs
+CH-04,owner_private,analytics_export,user_file_export,not_available,Outcome/retention private evidence,No export supplied,U;R,Anything beyond supplied data,optional,2026-08-17,Private adapter not used
