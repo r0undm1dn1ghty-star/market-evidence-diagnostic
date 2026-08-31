@@ -2,9 +2,9 @@
 
 ## Правило чтения каналов
 
-Канал — не источник «правды о компании». Он отвечает на один ограниченный вопрос: **какой claim можно проверить здесь и какую ложную интерпретацию нужно запретить.**
+Канал — не источник «правды о компании». Он отвечает на один ограниченный вопрос: **какое утверждение можно проверить здесь и какую ложную интерпретацию нужно запретить.**
 
-| Канал / место | Что можно наблюдать | Какие claims поддерживает | Что не доказывает | Режим доступа |
+| Канал / место | Что можно наблюдать | Какие утверждения поддерживает | Что не доказывает | Режим доступа |
 |---|---|---|---|---|
 | Официальный сайт, pricing, docs | Offer, segmentation language, price unit, integration/delivery scope | Object claim; competitive positioning; commercial unit | Demand, usage, payment, retention, outcome | Public-web |
 | Product Radar, Product Hunt, launch-posts | Launch timing, founder framing, early comments, search for partners/pilots | Early object signal; declared segment/route | PMF, revenue, real adoption | Public-web |
@@ -23,9 +23,9 @@
 | Support tickets / call transcripts | Failures, language of job, alternatives, pain after purchase | Job/reality; delivery friction; outcome failures | Market frequency without sampling | Owner export / authorized connector |
 | Ad / search / attribution data | Query, source, landing response, cost, intent | Channel/access; competitor/search intent | Activated value, retention, unit economics alone | Owner export / authorized connector |
 
-## Канал-claim coverage
+## Канал-утверждение coverage
 
-| Claim | Приоритетные каналы | Нужна ли private data для сильного вывода |
+| Утверждение | Приоритетные каналы | Нужна ли private data для сильного вывода |
 |---|---|---|
 | J — job reality | Reviews, communities, support, job boards, marketplaces | Нет для первичного signal; да для частоты/сегмента своего объекта. |
 | A — alternatives | Search/category, pricing/docs, marketplaces, comparisons, user discussions | Нет для карты alternatives. |
@@ -41,5 +41,5 @@
 1. **Сначала ищи divergence:** если сайт обещает одно, а reviews/community/support говорят другое — фиксируй противоречие, не усредняй.
 2. **Ищи buyer-side channel отдельно от object-side channel:** сайт компании показывает pitch; marketplace/reviews/community показывают job и alternatives.
 3. **Не засчитывай активность как результат:** пост, launch, подписчики, stars, установку или partner badge нельзя автоматически переводить в payment, outcome или retention.
-4. **Канал обязан иметь provenance:** URL/идентификатор, дату, mode доступа, source class, claim и caveat.
+4. **Канал обязан иметь provenance:** URL/идентификатор, дату, mode доступа, source class, утверждение и caveat.
 5. **Private adapter всегда optional:** отсутствие connector не блокирует public diagnosis; она лишь ограничивает object proof.

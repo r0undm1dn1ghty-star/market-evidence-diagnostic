@@ -3,13 +3,13 @@
 ## Главная смена логики
 
 **v1:** объект → его заявление → P/S/V/U/C/M/R → verdict.
-**v2:** объект + job + current alternatives + direct competitors + external demand traces → comparative claims → P/S/V/U/C/M/R → verdict.
+**v2:** объект + job + current alternatives + direct competitors + external demand traces → сравнительные утверждения → P/S/V/U/C/M/R → verdict.
 
 P/S/V/U/C/M/R остаются полезными, но не являются списком факторов, которые «управляют моделью». Это семь мест, в которых нужно проверить **право объекта на существование рядом с уже доступными способами решения работы**.
 
-## Внешние claims, которые нужно проверить до P/S/V/U/C/M/R
+## Внешние утверждения, которые нужно проверить до P/S/V/U/C/M/R
 
-| Код | Comparative claim | Вопрос к рынку | Сильное внешнее доказательство | Недостаточное доказательство |
+| Код | Сравнительное утверждение | Вопрос к рынку | Сильное внешнее доказательство | Недостаточное доказательство |
 |---|---|---|---|---|
 | J | Job reality | Люди в определённой ситуации уже пытаются выполнить эту работу/избежать потери? | Complaint + costly workaround, repeated comparison/search, migration, paid service request. | Лендинг объекта говорит, что проблема есть. |
 | A | Alternative landscape | Чем они решают работу сейчас, включая nothing/DIY? | 3+ observable alternatives with actual use/review/price/documentation. | Список «конкурентов» без близости к job. |
@@ -37,7 +37,7 @@ P/S/V/U/C/M/R остаются полезными, но не являются с
 | Слой | Возможные статусы | Что означает |
 |---|---|---|
 | **Market reality** | `market_unmapped`, `job_observed`, `alternatives_mapped`, `switch_reason_plausible`, `external_demand_observed` | Насколько внешний рынок и возможности переключения исследованы. |
-| **Object proof** | `self_claim_only`, `early_object_signal`, `independent_object_proof`, `private_evidence_required` | Насколько именно объект доказал своё право на claim. |
+| **Object proof** | `self_claim_only`, `early_object_signal`, `independent_object_proof`, `private_evidence_required` | Насколько именно объект доказал своё право на утверждение. |
 
 Нельзя заменять один слой другим. Сильный рынок не доказывает объект. Наличие working object не доказывает рынок.
 
@@ -45,7 +45,7 @@ P/S/V/U/C/M/R остаются полезными, но не являются с
 
 | Verdict | Требования к внешнему контуру | Требования к объекту |
 |---|---|---|
-| `market_research_required` | Нет J/A или current alternatives не определены. | Любые object claims преждевременны. |
+| `market_research_required` | Нет J/A или current alternatives не определены. | Любые утверждения об объекте преждевременны. |
 | `problem_and_alternatives_mapped` | J и A имеют независимые следы; F понятен. | Object proof может быть ещё слабым. |
 | `switch_hypothesis_testable` | G и T сформулированы через сравнение с альтернативами. | Нужно получить pilot/usage/transaction объекта. |
 | `limited_market_entry_supported` | External demand and alternatives are known; route/facility plausible. | Есть observed/purchased object outcome у ограниченной группы. |

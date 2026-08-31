@@ -1,6 +1,6 @@
 ---
 name: business-model-evidence-diagnostic
-description: "Проводит мультиканальную внешнюю диагностику жизнеспособности бизнес-модели. Используй, когда нужно исследовать продукт через его сайт, публичные коммуникации, площадки покупателей, текущие альтернативы, прямых конкурентов, reviews/community/marketplace signals и — только с разрешением — CRM, аналитику, биллинг или support exports; затем определить, какие claims подтверждены рынком, а каких доказательств не хватает."
+description: "Проводит мультиканальную внешнюю диагностику жизнеспособности бизнес-модели. Используй, когда нужно исследовать продукт через его сайт, публичные коммуникации, площадки покупателей, текущие альтернативы, прямых конкурентов, reviews/community/marketplace signals и — только с разрешением — CRM, аналитику, биллинг или support exports; затем определить, какие утверждения подтверждены рынком, а каких доказательств не хватает."
 license: Apache-2.0
 metadata:
   release: 0.3.0-rc1
@@ -17,11 +17,11 @@ metadata:
 
 ## Что выдаёт skill
 
-1. **Object card:** роль, ситуация, работа, бизнес-модель и claim объекта.
+1. **Object card:** роль, ситуация, работа, бизнес-модель и утверждение объекта.
 2. **Channel inventory:** какие object-side и buyer-side каналы проверены, что каждый может подтвердить и где видны противоречия.
 3. **Alternative map:** current workaround, doing nothing и 3–7 ближайших прямых конкурентов.
 4. **External evidence ledger:** наблюдения с provenance, каналом, URL/датой, class источника и границей вывода.
-5. **Comparative hypothesis map:** какие claims объекта подтверждены относительно альтернатив.
+5. **Comparative hypothesis map:** какие утверждения объекта подтверждены относительно альтернатив.
 6. **Market-readiness verdict:** что можно утверждать о рынке/объекте и какие внешние или private evidence gaps остаются.
 
 ## Режимы доступа
@@ -54,7 +54,7 @@ metadata:
 - **buyer-side:** хотя бы один канал, где люди обсуждают job/альтернативы или покупают их — reviews, forum, community, marketplace, job board, category directory;
 - **alternative-side:** official pricing/docs и один independent/buyer-side signal, если доступен.
 
-Каждый канал должен содержать: purpose, observed signal, supported claims, `does_not_prove`, access mode и provenance. Если канал недоступен, зафиксируй `not_available`; не подменяй его догадкой.
+Каждый канал должен содержать: purpose, observed signal, supported claims (поддержанные утверждения), `does_not_prove`, access mode и provenance. Если канал недоступен, зафиксируй `not_available`; не подменяй его догадкой.
 
 ### 3. Построй карту alternatives и direct competitors
 
@@ -69,11 +69,11 @@ metadata:
 
 ### 4. Собери доказательства по распределённым каналам
 
-Скопируй `templates/external-evidence-ledger.csv`. Для каждой записи укажи `channel`, URL/locator, дату, source class, claim, альтернативное объяснение и границу вывода.
+Для каждой записи укажи `channel`, URL/locator, дату, source class, утверждение (claim), альтернативное объяснение и границу вывода.
 
-Ищи не «упоминания бренда», а наблюдения по claims:
+Ищи не «упоминания бренда», а наблюдения по утверждениям:
 
-| Claim | Вопрос | Приоритетные каналы |
+| Утверждение | Вопрос | Приоритетные каналы |
 |---|---|---|
 | J | Реальна ли работа/потеря? | Reviews, communities, support export, marketplaces, job boards. |
 | A | Чем решают её сейчас? | Competitor docs/pricing, comparisons, marketplaces, communities. |
@@ -82,7 +82,7 @@ metadata:
 | F | Что мешает switch? | Docs, discussions, migration guides, support, onboarding. |
 | O | Что объект доказал именно относительно альтернатив? | Third-party case/review, app/GitHub trace, analytics/billing/support export. |
 
-Self-claim объекта допускается только как `object_self_claim`. Он не может в одиночку создать `supported` claim.
+Self-claim объекта допускается только как `object_self_claim`. Он не может в одиночку создать `supported` утверждение.
 
 ### 5. Подключай private evidence только по конкретному gap
 
@@ -98,7 +98,7 @@ Self-claim объекта допускается только как `object_sel
 
 File export предпочтительнее нового connector. Для реального connector сначала inspect availability; включение/создание требует отдельного явного согласия пользователя и read-only scope.
 
-### 6. Построй сравнительную карту claims
+### 6. Построй сравнительную карту утверждений
 
 Скопируй `templates/business-model-hypothesis-map.csv`. P/S/V/U/C/M/R — выход мультиканального сравнения, а не самооценка:
 

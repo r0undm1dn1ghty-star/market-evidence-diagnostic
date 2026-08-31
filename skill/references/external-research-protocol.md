@@ -26,7 +26,7 @@
 |---|---|---|---|
 | 1. Current alternative | Как задача реально решается без объекта? | 2–3 наблюдаемых способа: DIY, incumbent, агентство, spreadsheet, отказ от действия. | Competitor docs/pricing, user discussions, freelance marketplaces, app-store comparisons. |
 | 2. Direct competitors | Кто решает тот же job для той же роли и контекста? | 3 closest alternatives; если их нет — доказать category gap, а не заявить «конкурентов нет». | Search, category pages, marketplaces, industry directories, app stores. |
-| 3. Competitive claims | За что рынок уже просит/берёт деньги? | Price, unit, onboarding, SLA, integrations, paid plan/contract. | Official pricing/docs, partner pages, case studies. |
+| 3. Competitive claims | За что рынок уже просит/берёт деньги? | Price, unit, onboarding, SLA, integrations, paid plan/contract. | Official pricing/docs, partner pages, case studies. _Здесь "claims" — коммерческие условия, не утверждения о спросе._ |
 | 4. External demand traces | Что люди делают, когда проблема появляется? | Complaint with workaround, comparison/search, review, migration, hiring, request for service, paid transaction. | Reviews, forums, social, jobs, app stores, GitHub/issues, public procurement. |
 | 5. Switching friction | Почему люди остаются с альтернативой? | Lock-in, data migration, team training, incumbent bundle, risk of failure, regulation. | Negative reviews, docs, comparison discussions, migration guides. |
 | 6. Object-specific proof | Что этот объект уже доказал лучше альтернативы? | Independent review/case/usage signal; otherwise explicit `external_object_proof_missing`. | Third-party cases/reviews, marketplace metrics, partner mentions, public integrations. |
@@ -48,7 +48,7 @@
 | Независимое поведение | Reviews, rankings, installs + review behavior, public migration, job post, payment marketplace | Выше | Метрика может быть неполной и не объясняет мотивацию. |
 | Независимый рассказ | Форум, обсуждение, публичный case от клиента, медиа с проверяемым клиентом | Средняя | Может быть нерепрезентативен или спонсирован. |
 | Коммерческая реальность конкурента | Pricing, contract terms, integration docs, public SLA | Средняя для market structure | Доказывает offer конкурента, не его usage. |
-| Self-claim объекта | Лендинг, launch-пост, founder quote | Низкая | Годится только как claim, который нужно проверить. |
+| Self-claim объекта | Лендинг, launch-пост, founder quote | Низкая | Годится только как утверждение, которое нужно проверить. |
 
 ## Минимальный research pack до verdict
 
@@ -57,7 +57,7 @@
 | Object card | Product, role, situation/job, offered change, business model, stage, claim sources. |
 | Alternative map | Current DIY/doing-nothing + 3 closest competitors + why each is relevant. |
 | Competitive ledger | Competitor, job, buyer, pricing unit, onboarding/switching friction, claim source. |
-| External evidence ledger | Evidence, source class, URL, date, which claim it supports, alternative explanation. |
+| External evidence ledger | Evidence, source class, URL, date, which claim it supports (какое утверждение поддерживает), alternative explanation. |
 | Evidence gap register | Какая ключевая область не имеет external proof и какие private data нужны от owner. |
 
 ## Stop conditions

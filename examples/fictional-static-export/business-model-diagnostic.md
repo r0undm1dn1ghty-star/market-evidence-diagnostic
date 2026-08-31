@@ -60,7 +60,7 @@
 
 Полный provenance ledger находится в `external-evidence-ledger.csv`.
 
-## 6. Сравнительная карта claims бизнес-модели
+## 6. Сравнительная карта утверждений бизнес-модели
 
 | ID | Область | Что должно быть правдой относительно alternatives | Статус | Внешнее evidence | Что осталось private/unknown |
 |---|---|---|---|---|---|
@@ -92,4 +92,4 @@
 
 ## 9. Ограничения вывода
 
-Цена alternative доказывает только наличие commercial offer, а не его usage, margin или PMF. Лайки, launch posts, ratings или installs без поведенческого следа не доказывают transaction/retention. Внешнее исследование не заменяет CRM, retention, invoices, unit economics и customer-side evidence владельца. Verdict не прогнозирует выручку или успех объекта; он лишь ограничивает claims, которые можно обоснованно делать о рынке и готовности объекта.
+Цена alternative доказывает только наличие commercial offer, а не его usage, margin или PMF. Лайки, launch posts, ratings или installs без поведенческого следа не доказывают transaction/retention. Внешнее исследование не заменяет CRM, retention, invoices, unit economics и customer-side evidence владельца. Verdict не прогнозирует выручку или успех объекта; он лишь ограничивает утверждения, которые можно обоснованно делать о рынке и готовности объекта.
