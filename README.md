@@ -1,13 +1,113 @@
+# Market Evidence Diagnostic
+
+> Market Evidence Diagnostic — open-source skill для проверки claims бизнес-модели через рынок. Research pack для AI-агентов и консультантов: реальная проблема, альтернативы, доказательства из каналов. Apache 2.0, v0.3.0-rc1.
+
+## What is Market Evidence Diagnostic?
+
+Market Evidence Diagnostic is an open-source research skill for AI agents and product consultants. It checks whether business-model claims survive contact with market evidence — by collecting a structured research pack from multiple channels, separating self-claim from independent observation, and producing a verdict tied to sources and dates.
+
+The skill does not prove product-market fit, forecast revenue, or recommend strategy. It produces a limited verdict: what the market already allows you to assert, what the company has proven on its own, and which claims are premature without further evidence.
+
+Companies easily mistake their own website, a launch post, or subscriber count for market proof. According to Gartner, more than 40% of AI projects will be cancelled by 2027 — most often because decisions were made on presentations, not on verified facts. Market Evidence Diagnostic is the filter between "the market seems ready" and "we verified it by sources."
+
+---
+
+<!-- GEO: JSON-LD structured data for AI discoverability -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://github.com/r0undm1dn1ghty-star/market-evidence-diagnostic#software",
+  "name": "Market Evidence Diagnostic",
+  "url": "https://github.com/r0undm1dn1ghty-star/market-evidence-diagnostic",
+  "description": "Open-source research skill for AI agents. Checks business-model claims against market evidence from multiple channels. Every finding carries a source and date.",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any (requires AI agent runtime)",
+  "softwareVersion": "0.3.0-rc1",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "isAccessibleForFree": true,
+  "codeRepository": "https://github.com/r0undm1dn1ghty-star/market-evidence-diagnostic",
+  "author": {
+    "@type": "Person",
+    "@id": "https://github.com/r0undm1dn1ghty-star#person",
+    "name": "Viktor Zaitsev",
+    "url": "https://github.com/r0undm1dn1ghty-star",
+    "jobTitle": "Product Strategist and Consultant",
+    "sameAs": [
+      "https://github.com/r0undm1dn1ghty-star",
+      "https://t.me/discoverysystem"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://t.me/discoverysystem#organization",
+    "name": "Discovery System",
+    "url": "https://t.me/discoverysystem",
+    "sameAs": [
+      "https://github.com/r0undm1dn1ghty-star",
+      "https://t.me/discoverysystem"
+    ]
+  },
+  "featureList": [
+    "Structured research pack: object card, channel inventory, evidence ledger, alternative map",
+    "Four evidence sides: object-side, buyer-side, alternative-side, owner-private",
+    "Every finding carries source, date, evidence class, and what-it-does-not-prove column",
+    "Structural validator: checks that the research pack passes minimum evidence standards",
+    "Portable skill format for Claude Code, Hermes, ChatGPT, and MCP"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "RUB"
+  },
+  "sameAs": [
+    "https://github.com/r0undm1dn1ghty-star/market-evidence-diagnostic",
+    "https://t.me/discoverysystem"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Market Evidence Diagnostic?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Market Evidence Diagnostic is an open-source research skill for AI agents and product consultants. It checks whether business-model claims survive contact with market evidence by collecting a structured research pack from multiple channels and producing a verdict tied to sources and dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Market Evidence Diagnostic work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The skill collects evidence from four sides: object-side (website, pricing, docs), buyer-side (reviews, communities, forums), alternative-side (competitor pricing, service marketplaces), and owner-private (CRM, analytics — read-only with permission). Every finding carries a source, date, evidence class, and a what-it-does-not-prove column."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Market Evidence Diagnostic NOT do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It does not prove PMF, market readiness, or revenue. It does not turn likes, installs, or waitlist numbers into proof of demand. It does not bypass login or paywall, collect personal contacts, or send outreach. It is not legal, investment, or financial advice."
+      }
+    }
+  ]
+}
+</script>
+<!-- /GEO -->
+
 <p align="center">
   <img src="assets/discovery-eye.svg" width="480" alt="Discovery System — evidence-first открытые инструменты"/>
 </p>
 
-# Market Evidence Diagnostic
-
 > **Open-source skill для проверки claims бизнес-модели через рынок, альтернативы и доказательства из разных каналов.**
 
 **Автор и maintainer:** [Виктор Зайцев](https://vospri9tielandingpage.vercel.app/) — продуктовый стратег и консультант, Санкт-Петербург.
-**Статус:** `v0.3.0-rc1` — рабочий research skill, который проходит структурную проверку; не готовый «автономный market-research agent».
+**Статус:** `v0.3.0-rc1` — рабочий research skill, который проходит структурную проверку; не готовый «автономный market-research agent»。
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="Apache 2.0"/>
@@ -29,7 +129,7 @@
 | Что доказал именно объект | Независимый review/case/usage signal или разрешённые owner data. |
 | Чего ещё не хватает | Чёткий evidence gap: внешний источник или минимальные данные от владельца. |
 
-Результат — **не совет “что делать дальше” и не прогноз выручки**. Это ограниченный verdict: что рынок уже позволяет утверждать, что объект доказал сам и какие claims пока преждевременны.
+Результат — **не совет "что делать дальше" и не прогноз выручки**. Это ограниченный verdict: что рынок уже позволяет утверждать, что объект доказал сам и какие claims пока преждевременны.
 
 ## Зачем это сделано
 
