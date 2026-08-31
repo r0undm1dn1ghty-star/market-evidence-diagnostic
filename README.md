@@ -106,8 +106,29 @@ Companies easily mistake their own website, a launch post, or subscriber count f
 
 > **Open-source skill для проверки claims бизнес-модели через рынок, альтернативы и доказательства из разных каналов.**
 
-**Автор и maintainer:** [Виктор Зайцев](https://vospri9tielandingpage.vercel.app/) — продуктовый стратег и консультант, Санкт-Петербург.
-**Статус:** `v0.3.0-rc1` — рабочий research skill, который проходит структурную проверку; не готовый «автономный market-research agent»。
+## Кому это нужно
+
+- **Product-консультант или студия** — превращает клиентский brief в воспроизводимый research pack, не продавая «стратегию» на доверии.
+- **B2B SaaS/AI founder после MVP** — нужно понять, есть ли спрос, не путая подписчиков с доказательством.
+- **Venture studio, акселератор, product/innovation lead** — нужен вердикт: что рынок уже позволяет утверждать, а какие claims преждевременны.
+
+**Статус:** `v0.3.0-rc1` — ищем 3–5 design partner runs до v1.0.0.
+
+## Быстрый старт (30 минут)
+
+1. Скопируйте `examples/fictional-static-export/` в новую рабочую папку.
+2. Заполните `object-card.md`: **одна роль, одна ситуация, одна работа и текущая альтернатива**.
+3. Заполните `channel-inventory.csv`. Нужен минимум один проверенный канал каждой стороны: object-side, buyer-side и alternative-side.
+4. Найдите минимум три реальных alternatives и внесите их в `alternative-map.csv`.
+5. В `external-evidence-ledger.csv` записывайте только наблюдения с источником, датой, классом, альтернативным объяснением и колонкой `what_it_does_not_prove`.
+6. Запустите проверку: `python skill/scripts/validate_diagnostic.py path/to/your-pack`
+
+**Результат:** Object card → Channel inventory → Evidence ledger → Verdict. Каждый вывод — источник + дата. Если проверка не проходит — market-readiness verdict выдавать нельзя.
+
+---
+
+**Автор:** [Виктор Зайцев](https://vospri9tielandingpage.vercel.app/) — продуктовый стратег и консультант, Санкт-Петербург.
+[![Лицензия: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [t.me/discoverysystem](https://t.me/discoverysystem)
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="Apache 2.0"/>
@@ -130,46 +151,6 @@ Companies easily mistake their own website, a launch post, or subscriber count f
 | Чего ещё не хватает | Чёткий evidence gap: внешний источник или минимальные данные от владельца. |
 
 Результат — **не совет "что делать дальше" и не прогноз выручки**. Это ограниченный verdict: что рынок уже позволяет утверждать, что объект доказал сам и какие claims пока преждевременны.
-
-## Зачем это сделано
-
-Компания может легко принять за доказательство спроса собственный сайт, launch-пост или подписчиков. Рынок ИИ-проектов это подтверждает: по Gartner более 40% ИИ-проектов будут отменены к 2027 году — чаще всего из-за решений, принятых на красивых презентациях, а не на проверенных фактах.
-
-Market Evidence Diagnostic — это фильтр между «кажется, рынок готов» и «мы проверили по источникам». Технологий много, готовых решений мало. Разрыв между ними — и есть возможности, но чтобы их увидеть, нужен воспроизводимый процесс, а не интуиция. Инструмент даёт консультанту и фаундеру research pack, в котором каждый вывод имеет источник и дату — и вердикт только после проверки.
-
-## Авторство
-
-Инструмент создан и поддерживается [Виктором Зайцевым](https://vospri9tielandingpage.vercel.app/) — продуктовым стратегом и консультантом из Санкт-Петербурга. Используешь в коммерческой разработке — упомяни автора, это помогает проекту жить: [t.me/discoverysystem](https://t.me/discoverysystem)
-
----
-
-## Что внутри
-
-```text
-skill/                          # Устанавливаемый skill для AI-агента
-├── SKILL.md                    # Workflow
-├── templates/                  # Object card, channel inventory, ledger, verdict
-├── references/                 # Источники, каналы и adapter contract
-├── scripts/validate_diagnostic.py
-└── fixtures/                   # Валидный и невалидный research pack
-examples/fictional-static-export/ # Полностью вымышленный, безопасный пример
-```
-
-## Быстрый старт
-
-1. Скопируйте `examples/fictional-static-export/` в новую рабочую папку.
-2. Заполните `object-card.md`: **одна роль, одна ситуация, одна работа и текущая альтернатива**.
-3. Заполните `channel-inventory.csv`. Нужен минимум один проверенный канал каждой стороны: object-side, buyer-side и alternative-side.
-4. Найдите минимум три реальных alternatives и внесите их в `alternative-map.csv`.
-5. В `external-evidence-ledger.csv` записывайте только наблюдения с источником, датой, классом, альтернативным объяснением и колонкой `what_it_does_not_prove`.
-6. Заполните `business-model-hypothesis-map.csv` и `business-model-diagnostic.md`.
-7. Запустите проверку:
-
-```bash
-python skill/scripts/validate_diagnostic.py path/to/your-pack
-```
-
-Если проверка не проходит, **не выдавайте market-readiness verdict**. Сначала закройте structural gap или явно зафиксируйте, что источник недоступен.
 
 ## Какие каналы учитываются
 
