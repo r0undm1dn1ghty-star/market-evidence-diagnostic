@@ -1,0 +1,5 @@
+channel_id,side,channel_type,access_mode,locator_or_query,purpose,observed_signal,claim_codes_supported,does_not_prove,status,source_date,notes
+CH-01,object_side,website_or_docs,public_web,https://example.com/exportkit,Объектный offer и delivery scope,Вымышленная owner demo и price page,A;T;O,Спрос или outcome объекта,checked,2026-08-17,Synthetic self-claim only
+CH-02,buyer_side,public_community,public_web,https://example.com/discussion-manual-rebuild,Язык job и workaround,Вымышленный practitioner описывает manual rebuild,J;G;F,Частоту или WTP,checked,2026-08-17,Synthetic independent-account example
+CH-03,alternative_side,marketplace_or_docs,public_web,https://example.com/migration-service,Scope и paid unit альтернативы,Вымышленная service alternative публикует fixed project unit,A;T;F,Usage или PMF альтернативы,checked,2026-08-17,Synthetic competitor-docs example
+CH-04,owner_private,analytics_export,user_file_export,not_available,Private outcome/retention evidence,Никакой export не предоставлен,U;R,Любой private performance claim,optional,2026-08-17,Adapter deliberately not used

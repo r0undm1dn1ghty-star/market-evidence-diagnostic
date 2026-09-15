@@ -1,0 +1,21 @@
+# Market Evidence Diagnostic
+
+> Market Evidence Diagnostic — open-source research skill for AI agents. Checks business-model claims against market evidence. Apache 2.0, v0.3.0-rc1.
+
+## Documentation
+
+- [README (Русский)](./README.md): Полное описание, быстрый старт, каналы
+- [Methodology Boundaries](./docs/methodology-boundaries.md): Границы методологии
+- [Evidence and Channel Guide](./docs/evidence-and-channel-guide.md): Guide по каналам
+- [Adapter Contract](./docs/adapter-contract.md): Контракт адаптеров
+- [Design Partner Guide](./docs/design-partner-guide.md): Guide для design partners
+- [Roadmap](./ROADMAP.md): Roadmap развития
+- [Skill](./skill/SKILL.md): Переносимый skill для агентных сред
+- [Validator](./skill/scripts/validate_diagnostic.py): Скрипт проверки research pack
+- [Examples](./examples/fictional-static-export/): Полностью вымышленный пример
+
+## Links
+
+- [GitHub Repository](https://github.com/r0undm1dn1ghty-star/market-evidence-diagnostic)
+- [Discovery System Telegram](https://t.me/discoverysystem)
+- [Author: Viktor Zaitsev](https://github.com/r0undm1dn1ghty-star)

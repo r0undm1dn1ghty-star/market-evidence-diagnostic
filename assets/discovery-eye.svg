@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Discovery System">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1220"/>
+      <stop offset="1" stop-color="#101a2e"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <!-- концентрические кольца (оп-арт) -->
+  <g fill="none" stroke="url(#ring)" stroke-width="2">
+    <circle cx="320" cy="180" r="30"/>
+    <circle cx="320" cy="180" r="58"/>
+    <circle cx="320" cy="180" r="86"/>
+    <circle cx="320" cy="180" r="114"/>
+    <circle cx="320" cy="180" r="142"/>
+    <circle cx="320" cy="180" r="170"/>
+    <circle cx="320" cy="180" r="198"/>
+  </g>
+  <!-- силуэт глаза: тёмное веко + зрачок -->
+  <g>
+    <path d="M320 120 Q 250 118 226 142 Q 260 150 320 150 Q 380 150 414 142 Q 390 118 320 120 Z" fill="#0a1220"/>
+    <ellipse cx="320" cy="178" rx="118" ry="62" fill="#0a1220"/>
+    <ellipse cx="320" cy="178" rx="118" ry="62" fill="none" stroke="#8b5cf6" stroke-width="2.5"/>
+    <circle cx="320" cy="178" r="34" fill="#8b5cf6"/>
+    <circle cx="320" cy="178" r="16" fill="#0a1220"/>
+    <circle cx="312" cy="170" r="5" fill="#c4b5fd"/>
+  </g>
+  <text x="320" y="285" text-anchor="middle" font-family="'IBM Plex Sans', -apple-system, Segoe UI, sans-serif" font-size="26" font-weight="700" letter-spacing="4" fill="#e6e9ef">DISCOVERY SYSTEM</text>
+  <text x="320" y="315" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="14" letter-spacing="2" fill="#9aa7bd">evidence-first · open source</text>
+</svg>

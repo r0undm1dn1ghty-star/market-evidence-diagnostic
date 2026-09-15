@@ -1,0 +1,4 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,Manual HTML rebuild,DIY,Independent web developer,Hand over a small site without builder subscription,Same job completed with manual labor,Developer time,High time and quality risk,https://example.com/manual-rebuild,2026-08-17,independent_account,Current workaround
+A-02,Builder subscription,incumbent,Independent web developer,Keep client site online and editable,Same client/site context,Monthly subscription,Client familiarity and live dependencies,https://example.com/builder-pricing,2026-08-17,competitor_docs,Status quo
+A-03,Migration agency,service_alternative,Independent web developer,Move site to own hosting,Same output bought as service,Fixed project price,Handoff cost and scheduling,https://example.com/migration-service,2026-08-17,competitor_docs,Service competitor

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local research and private exports
+private-data/
+exports/
+research-packs/real-company/
+*.sqlite
+*.db
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+
+# Build artifacts
+*.zip
+*.skill

@@ -1,0 +1,6 @@
+channel_id,side,channel_type,access_mode,locator_or_query,purpose,observed_signal,claim_codes_supported,does_not_prove,status,source_date,notes
+CH-01,object_side,website_or_docs,public_web,[URL],Offer/pricing/delivery scope,[factual observation],A;T;O,[demand/usage/payment],checked,[YYYY-MM-DD],[ ]
+CH-02,object_side,launch_or_social_or_community,public_web,[URL/query],Public messaging/partners/release trace,[factual observation],O;C,[payment/retention],checked_or_not_available,[YYYY-MM-DD],[ ]
+CH-03,buyer_side,reviews_or_community_or_marketplace,public_web,[URL/query],Job/workaround/alternative language,[factual observation],J;A;G;F,[frequency/WTP],checked_or_not_available,[YYYY-MM-DD],[ ]
+CH-04,alternative_side,pricing_or_docs,public_web,[URL],Price/unit/onboarding/friction of close alternative,[factual observation],A;T;F,[usage/PMF],checked,[YYYY-MM-DD],[ ]
+CH-05,owner_private,crm_or_analytics_or_billing_or_support,user_file_export,[file/report ID],Fill one defined private evidence gap,[aggregate/anonymized observation],O;U;V;C;M;R,[any claim beyond supplied data],optional_or_not_available,[YYYY-MM-DD],[ ]
