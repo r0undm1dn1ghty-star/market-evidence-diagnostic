@@ -1,0 +1,6 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,FL.ru,direct_competitor,Фрилансер с портфолио,Получение заказов/услуг,Совпадают job и buyer role; другой механизм монетизации,Платные отклики + PRO-аккаунт,Репутация и портфолио переносятся плохо,https://flekk.ru/blog/birzhi-frilansa/,2026-09-16,competitor_docs,
+A-02,Workzilla,direct_competitor,Новичок/фрилансер,Подработка и типовые услуги,"Тот же job, другая unit для продавца",Подписка исполнителя,Меньше категорий,https://flekk.ru/blog/birzhi-frilansa/,2026-09-16,competitor_docs,
+A-03,Профи.ру,direct_competitor,"Репетиторы, мастера, консультанты",Поиск специалиста,Совпадает buyer need — нанять специалиста,"Платный отклик или комиссия, расчёт напрямую",Другой фокус категорий,https://flekk.ru/blog/birzhi-frilansa/,2026-09-16,competitor_docs,
+A-04,Прямые каналы / знакомые / сарафан,DIY,Заказчик,Типовая услуга,Та же job без платформы,Время и доверие,Нет арбитража и гарантии,https://flekk.ru/blog/birzhi-frilansa/,2026-09-16,independent_account,
+A-05,Ничего не делать (отказаться от задачи),doing_nothing,Заказчик,Типовая услуга,Status quo для необязательных задач,0 ₽,Работа не выполняется,https://flekk.ru/blog/birzhi-frilansa/,2026-09-16,independent_account,
