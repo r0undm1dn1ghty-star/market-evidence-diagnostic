@@ -1,0 +1,6 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,Kwork,direct_competitor,Покупатель типовых услуг,Услуга с фикс. ценой,Совпадает job; комиссионная модель,"20/12/7,5% + вывод 1–7%",Другой механизм,https://buyhold.ru/birzhi-frilansa/,2026-09-18,competitor_docs,
+A-02,FL.ru,direct_competitor,Профессиональный фрилансер,Проектные заказы,Более крупный поток заказов,"PRO 490 ₽/мес, отклики",Репутация не переносится,https://vc.ru/hr/3035231-reyting-luchshikh-frilans-birzh,2026-09-18,competitor_docs,
+A-03,HH.ru / Job-доски,incumbent,Соискатель удалённой работы,Постоянная занятость/вакансии,Вакансии — основной формат Kadrof пересекается с job-досками,Подписки работодателя,Другой контекст найма,https://career.hh.ru/article/birzhi-frilansa-dlya-nachinayushih,2026-09-18,competitor_docs,
+A-04,Прямые каналы / сарафан,DIY,Заказчик,Разовая задача,Та же job без платформы,Комиссия 0,Нет арбитража,https://www.kadrof.ru/work,2026-09-18,independent_account,
+A-05,Ничего не делать,doing_nothing,Заказчик,Задача отложена,Status quo,0 ₽,Работа не выполняется,https://www.kadrof.ru/work,2026-09-18,independent_account,

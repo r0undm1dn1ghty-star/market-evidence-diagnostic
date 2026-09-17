@@ -1,0 +1,6 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,Kwork,direct_competitor,Покупатель типовых услуг,Услуга с фиксированной ценой от 500 ₽,Совпадает job и buyer role; магазин услуг вместо откликов,"20/12/7,5% с исполнителя + вывод 1–7%",Другой механизм: продажа готовых кворков,https://buyhold.ru/birzhi-frilansa/,2026-09-18,competitor_docs,
+A-02,Weblancer.net,direct_competitor,Фрилансер СНГ/РФ,Проектные заказы по IT/дизайну,"Тот же job, другая юрисдикция (Украина)","5% комиссия, escrow USDT",Карты РФ не принимаются,https://buyhold.ru/birzhi-frilansa/,2026-09-18,competitor_docs,
+A-03,Freelance.ru,direct_competitor,Профессиональный фрилансер,Заказы и тендеры,Близкий формат биржи,"Платные тарифы, безопасная сделка",Меньше трафика,https://vc.ru/hr/3035231-reyting-luchshikh-frilans-birzh,2026-09-18,competitor_docs,
+A-04,Прямой найм / штат / знакомые,DIY,Заказчик,Постоянная или разовая задача,Та же job без посредника,Зарплата/время,Нет арбитража и пула исполнителей,https://www.fl.ru/,2026-09-18,independent_account,
+A-05,Ничего не делать,doing_nothing,Заказчик,Проект отложен,Status quo,0 ₽,Работа не выполняется,https://www.fl.ru/,2026-09-18,independent_account,

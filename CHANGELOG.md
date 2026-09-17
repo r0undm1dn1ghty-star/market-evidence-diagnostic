@@ -2,6 +2,17 @@
 
 Все заметные изменения документируются здесь.
 
+## [0.3.2] — 2026-09-18
+
+### Added
+
+- Второй цикл баттлтеста: `examples/competition-freelance-2026-09-17/` — конкурентная evidence-диагностика 5 фриланс-бирж одного сегмента (Kwork, FL.ru, Weblancer, Kadrof, poisk-pro.ru) + сводный отчёт `examples/competition-freelance-2026-09-17.md` со сравнительной таблицей и ранжированием «кто выживет».
+- Все 5 pack'ов проходят `validate_diagnostic.py` (PASS × 5).
+
+### Fixed
+
+- Валидатор во втором цикле отклонял pack'и без кода F (friction) в `external-evidence-ledger.csv` — зафиксировано, что код F обязателен в каждом ledger (ошибка первого цикла, где F отсутствовал в части pack'ов).
+
 ## [0.3.0-rc1] — 2026-08-17
 
 Первый публичный release candidate самостоятельного GitHub-проекта.
