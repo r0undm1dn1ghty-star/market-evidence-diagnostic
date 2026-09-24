@@ -1,0 +1,4 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,In-house разработка,DIY,ИТ-директор,Построить бота своей командой,Тот же job без вендора,Зарплаты команды,Сроки и компетенции,not_available,2026-09-20,independent_account,Классическая альтернатива для банков
+A-02,MTS AI (MWS),direct_competitor,ИТ-директор,Купить ИИ-решение под ключ,Тот же job у экосистемы,Проект/подписка,Интеграция с экосистемой МТС,https://mts.ai/,2026-09-20,competitor_docs,Ресурсы МТС + телеком-канал
+A-03,GigaChat (Сбер),direct_competitor,ИТ-директор,GenAI-платформа от экосистемы,Тот же job у экосистемы,API/проект,Связь с банковской экосистемой,https://giga.chat/,2026-09-20,competitor_docs,Недоступен для curl (307-loop)

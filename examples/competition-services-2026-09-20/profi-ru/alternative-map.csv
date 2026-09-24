@@ -1,0 +1,4 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,Сарафан и прямые договоры,DIY,Специалист,Найти клиентов без площадки,Тот же job без комиссии,Время и репутация,Нет потока заявок,https://otzovik.com/reviews/profi_ru/,2026-09-20,independent_account,Отзывы упоминают «основная часть клиентов с профи» — сарафан уже не покрывает
+A-02,Авито Услуги,incumbent,Специалист,Разместить услуги на массовой площадке,Тот же job в другом канале,Плата за продвижение/квоту,Привычка аудитории,https://www.avito.ru/services,2026-09-20,competitor_docs,Массовый канал с другой моделью оплаты
+A-03,Яндекс Услуги,direct_competitor,Специалист,Получать заявки из поиска Яндекса,Тот же job с бесплатным размещением,Бесплатно/продвижение,Интеграция с экосистемой Яндекса,https://yandex.ru/uslugi/,2026-09-20,competitor_docs,Прямой конкурент по заявкам

@@ -1,0 +1,6 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,Profi.ru,direct_competitor,Заказчик бытовых/строительных услуг,Найти мастера,Совпадает job; плата за контакт,Оплата за отклик/контакт,Другой фокус категорий,https://rusreviews.ru/poisk-pro-ru-otzyvy/,2026-09-18,competitor_docs,
+A-02,Яндекс Услуги,direct_competitor,Заказчик бытовых услуг,Найти мастера рядом,Совпадает job; отзывы poisk-pro прямо упоминают конкуренцию,Комиссия/подписка исполнителя,Интеграция с Я.Картами,https://rusreviews.ru/poisk-pro-ru-otzyvy/,2026-09-18,competitor_docs,
+A-03,Ремонтник.ру / Профильные доски,direct_competitor,Исполнитель ремонта,Заявки на ремонт,"Отзывы poisk-pro: заказы «взяты с ремонтник.ру, профи.ру» — перекрёстная база",Подписки исполнителя,Та же база заявок,https://rusreviews.ru/poisk-pro-ru-otzyvy/,2026-09-18,competitor_docs,
+A-04,Прямые каналы / сарафан / доски объявлений,DIY,Заказчик,Разовая задача,Та же job без платформы,Комиссия 0,Нет гарантий,https://www.otzyvru.com/poisk-proru,2026-09-18,independent_account,
+A-05,Ничего не делать,doing_nothing,Заказчик,Задача отложена,Status quo,0 ₽,Работа не выполняется,https://www.otzyvru.com/poisk-proru,2026-09-18,independent_account,

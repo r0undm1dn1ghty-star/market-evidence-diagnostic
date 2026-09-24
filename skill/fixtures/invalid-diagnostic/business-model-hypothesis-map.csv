@@ -1,0 +1,3 @@
+id,area,hypothesis,current_status,evidence_summary,evidence_source_or_origin,evidence_url_or_reference,evidence_date,contradiction_or_risk,minimum_evidence_needed,blocks_which_business_step,notes
+P-01,P_problem,"Everybody needs this product.",supported,"","Founder claim",,2026-08-17,"","","",""
+P-01,wrong_area,"It will scale forever.",definitely_yes,"Looks good","Guess",,2026-08-17,"","","",""

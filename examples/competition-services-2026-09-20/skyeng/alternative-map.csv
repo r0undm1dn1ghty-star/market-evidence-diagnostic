@@ -1,0 +1,4 @@
+alternative_id,alternative_name,alternative_type,role_or_buyer,situation_or_job,why_relevant,pricing_or_exchange_unit,switching_friction,source_url,source_date,source_class,notes
+A-01,Частный репетитор,service_alternative,Ученик/родитель,Выучить язык с персональным подходом,Тот же job без платформы,500-2000 ₽/час,Поиск и проверка репетитора,https://profi.ru/,2026-09-20,independent_account,Прямой конкурент за тот же кошелёк
+A-02,Бесплатные приложения,DIY,Ученик,Тренировать язык самостоятельно,Частично тот же job,0 ₽,Нет живого преподавателя,https://www.duolingo.com/,2026-09-20,competitor_docs,Разные ожидания результата
+A-03,Групповые курсы (Skillbox/Практикум),incumbent,Ученик,Изучать язык/смежные навыки онлайн,Конкуренция за бюджет обучения,Рассрочка,Формат группы vs 1-на-1,https://skillbox.ru/,2026-09-20,competitor_docs,Skillbox: скидка до 55% + ИИ-курс в подарок
